@@ -266,15 +266,49 @@ form .button{
     justify-content: end;
 }
 form .button input[type=submit]{
-    background-color: #4977d1;
-    border: none;
+    /* background-color: #4977d1; */
+    /* border: none;
     outline: none;
     color: #fff;
     font-weight: bold;
     margin: 10px 0 10px 0;
     width: 100px;
-    height: 35px;
+    height: 35px; */
+
+    width: 8em;
+    height: 2.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* background-color: #4977D1; */
+    color: #ffffff;
+    border: none;
 }
+
+/* randome code input */
+form .randomcode { 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    max-width: 500px;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+}
+
+form .randomcode input {
+    width: 200px;
+    height: fit-content;
+}
+
+form .randomcode p {
+    padding: 15 10 15 10;
+    margin: 0 0 0 20px;
+    background-color:rgba(202, 204, 202, 0.6);
+    color: black;
+}
+
 
 /* Below is what I need to use for the contact form styling : 
 Properties
