@@ -18,3 +18,5 @@
   // console.log(imageListNoComma);
   // display all six images
   document.getElementById("partners").innerHTML = imageListNoComma;
+
+  

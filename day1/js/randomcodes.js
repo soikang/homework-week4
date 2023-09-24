@@ -15,7 +15,7 @@ function generateCode() {
 }
 // get HTML element to display
 document.getElementById("codes").innerHTML = generateCode();
-console.log("wtf?");
+
 
 // disable Button
 function disableButton() {
