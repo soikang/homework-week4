@@ -32,10 +32,6 @@
             <div class="signupinfo">
                 <label>Your Full Name</label>
                 <input type="text" name="full_name">
-                <label>Your Email Address</label>
-                <input type="email" name="email">
-                <label>Your Phone Number</label>
-                <input type="text" name="phone">
             </div>
             <div class="radios">
             <label>Your Gender</label>
@@ -45,10 +41,19 @@
             </div>
             <div class="selectmenu">
                 <label>How should we contact you?</label>
-                <select name="contact_method">
-                    <option>Email</option>
-                    <option>Phone</option>
+                <select name="contact_method" id="contact_method">
+                    <option selected disabled>Select One</option>
+                    <option value="email">Email</option>
+                    <option value="phone">Phone</option>
                 </select>
+            </div>
+            <div class="email_field" style="display: none;">
+                <label>Your Email Address</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <div class="phone_field" style="display: none;">
+                <label>Your Phone Number</label>
+                <input type="text" name="phone" id="phone">
             </div>
             <div class="commentbox">
                 <label>Please let us know what kind of adoption events you are interested in</label>
@@ -60,6 +65,11 @@
         </fieldset>
     </form>
 </main>
+
+<!-- script -->
+<script src="script.js"></script>
+
+
 <!-- Footer -->
     <footer>&copy; Copyright 2023 Rainbow Adoption Center</footer>
 </div>
