@@ -28,12 +28,12 @@ contactMethodSelect.addEventListener('change', function () {
     const selectedValue = contactMethodSelect.value;
     if (selectedValue === 'email') {
         emailField.style.display = 'block';
-        emailField.style.paddingLeft = '20px';
+        emailField.style.paddingLeft = '20px'; // this can be figured out better way with styles.css
         phoneField.style.display = 'none';
     } else if (selectedValue === 'phone') {
         emailField.style.display = 'none';
         phoneField.style.display = 'block';
-        phoneField.style.paddingLeft = '20px';
+        phoneField.style.paddingLeft = '20px'; // this can be figured out better way with styles.css
     } else {
         emailField.style.display = 'none';
         phoneField.style.display = 'none';
